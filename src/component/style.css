@@ -1,0 +1,336 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.main-container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f4f6;
+}
+.form-container{
+    width: 550px;
+    min-height: 100vh;
+    height: auto;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 80px 0;
+}
+.head{
+    width:550px;
+    background-color:white;
+}
+.heading{
+    color:#1e3a8a;
+    font-size: 32px;
+    text-align: center;
+}
+.name-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.name-label{
+    color:#374151;
+    font-weight:bold;
+}
+.name-input{
+    color:#111827;
+    background-color: #ffffff;
+    border:1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding-left:20px;
+    width:300px;
+    height:30px;
+}
+.email-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.email-label{
+    color:#374151;
+    font-weight:bold;
+}
+.email-input{
+    color:#111827;
+    background-color: #ffffff;
+    border:1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding-left:20px;
+    width:300px;
+    height:30px;
+}
+.contact-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-label{
+    color:black;
+    font-weight:bold;
+}
+.contact-input{
+    color:#111827;
+    background-color: #ffffff;
+    border:1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding-left:20px;
+    width:300px;
+    height:30px;
+}
+.city-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.city-label{
+    color:#374151;
+}
+.city-select{
+    color:#111827;
+    background-color: #ffffff;
+    border:1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding-left:20px;
+    width:550px;
+    height:30px;
+}
+.position-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.position-label{
+    color:#374151;
+}
+.position-select{
+    color:#111827;
+    background-color: #ffffff;
+    border:1px solid #d1d5db;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding-left:20px;
+    width:550px;
+    height:30px;
+}
+.skills-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.skill-label{
+    color:#374151;
+}
+.Skills{
+    padding:10px;
+    font-size: 15px;
+}
+.experience-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.skill-label{
+    color:#374151;
+}
+.experience{
+    padding:10px;
+    font-size: 15px;
+
+}
+.resume-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.resume-label{
+    color:#374151;
+}
+.resume-input{
+    color:#111827;
+    background-color: #ffffff;
+    border:dashed #2563eb;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    width:300px;
+    height:30px;
+}
+.cover-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.cover-label{
+    color:#374151;
+}
+.text{
+    height:120px;
+    margin-top: 12px;
+    border: 1px solid #d1d5db;
+}
+.terms-div{
+    width:550px;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.terms-label{
+    color:#374151;
+}
+.condition{
+    padding:8px;
+    font-size: 15px;
+
+}
+.submit-button{
+    background-color: #2563eb;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    height:30px;
+    width:80px;
+    transition: all 0.3s ease-in 0;
+    margin-top: 50px;
+    
+}
+.submit-button:hover{
+    background-color: #1d4ed8;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.submit-div{
+    width:550px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+@media (max-width:599px){
+    *{
+        background-color: #f3f4f6;
+    }
+     .main-container{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        background-color: #f3f4f6;
+}
+    .form-container{
+        width:350px;
+        margin-left: 50px;
+        background-color: white;
+    }
+    .head{
+        width:300px;
+    }
+    .heading{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .name-div{
+        width: fit-content;
+    }
+    .email-div{
+        width: fit-content;
+    }
+    .contact-div{
+        width: fit-content;
+    }
+    .city-div{
+        width:fit-content;
+    }
+    .city-select{
+        width:300px;
+    }
+    .position-div{
+        width:fit-content
+    }
+    .position-select{
+        width:300px;
+    }
+    .skills-div{
+        width:fit-content;
+    }
+    .experience-div{
+        width:fit-content;
+    }
+    .resume-div{
+        width:fit-content;
+    }
+    .cover-div{
+        width:fit-content;
+    }
+    .text{
+        width:300px;
+    }
+    .terms-div{
+        width: fit-content;
+    }
+    .submit-div{
+        width: 300px;
+        display: inline-block;
+    }
+    .submit-button{
+        margin:0px 0px 10px 250px;
+    }
+}
+@media (min-width:600px) and (max-width:991px){
+    .main-container{
+        width:800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .form-container{
+        width:700px;
+        margin-left: 20px;
+    }
+    .heading{
+        font-size: 22px;
+        padding-right: 110px;
+    }
+    .city-select{
+        width:400px;
+    }
+    .position-select{
+        width:400px;
+    }
+    .cover-div{
+        width:400px;
+    }
+    .submit-div{
+        width: 400px;
+    }
+}
